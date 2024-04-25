@@ -8,6 +8,7 @@ metadata:
     - web
     - flask
   annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=firstapp'
     sonarqube.org/project-key: firstapp
 spec:
   type: service
