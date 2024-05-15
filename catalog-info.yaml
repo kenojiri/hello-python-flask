@@ -1,0 +1,16 @@
+apiVersion:  backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-flask
+  description: This is a sample Python app deployment.
+  tags:
+    - python
+    - web
+    - flask
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=firstapp'
+    sonarqube.org/project-key: firstapp
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest@example.com
