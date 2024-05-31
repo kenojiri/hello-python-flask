@@ -8,8 +8,8 @@ metadata:
     - web
     - flask
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=firstapp'
-    sonarqube.org/project-key: firstapp
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=python-flask'
+    sonarqube.org/project-key: python-flask
 spec:
   type: service
   lifecycle: experimental
