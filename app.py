@@ -8,5 +8,5 @@ def hello_world():
 
 #see: https://docs.cloudfoundry.org/buildpacks/python/index.html#run-web-server
 if __name__ == "__main__":
-  port = int(os.getenv("PORT", 8080))
+  port = int(os.getenv("PORT", 8080)) # type: ignore
   app.run(host='0.0.0.0', port=port, debug=True)
